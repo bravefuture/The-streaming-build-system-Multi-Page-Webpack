@@ -1,0 +1,7 @@
+@import "base/base";
+
+body{
+    div{ color: red;}
+    span{ color: blue;}
+    background: url(#{$url}v.png#{$version}) no-repeat;
+}

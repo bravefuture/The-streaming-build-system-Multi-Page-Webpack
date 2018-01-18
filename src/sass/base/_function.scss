@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+// @function
+/**
+ * [p2r px单位转rem单位]
+ * @param  {[type]} $px [参数px值]
+ * @return {[type]}     [返回rem单位]
+ */
+@function p2r($px){
+    @if(type-of($px) == 'number'){
+        @return $px / 100px * 1rem;     
+    }
+}

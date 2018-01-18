@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 基础样式、@function、%、mixins
+ */
+@import 'base';
+/**
+ * 版本号
+ */
+$version: '?v=201610121403';
+/**
+ * 背景图相对路径
+ */
+$url: '../images/';
+/**
+ * 引用雪碧图mixin示例（有两个雪碧图时）
+ */
+@import '../images/icons_sprite/sprite';
+@import 'iconName';
+@import '../images/icons2_sprite/sprite';
+@import 'iconName';
+/**
+ * 引用背景图示例
+ */
+.bg{ background: url(#{$url}bg.png#{$version}) no-repeat;}
+

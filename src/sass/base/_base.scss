@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@import 'reset';
+@import '%';
+@import 'mixins';
+@import 'function';
+/**
+ * 版本号
+ */
+$version: '?v=201610121403';
+ /**
+  * 背景图相对路径
+  */
+$url: '../images/';
+
+//background: url(#{$url}v.png#{$version}) no-repeat;
